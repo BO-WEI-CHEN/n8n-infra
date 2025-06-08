@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Google Cloud credentials
+terraform-sa-key.json
+*.pem
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Docker
+docker/*.tar
