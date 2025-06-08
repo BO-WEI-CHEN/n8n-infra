@@ -2,14 +2,14 @@
 # Rename this to terraform.tfvars and fill in the sensitive values.
 
 # --- Required --- #
-db_password        = "n8n-test"
-n8n_encryption_key = "n8n-test"
+db_password        = "yourpassword"
+n8n_encryption_key = "yourkey"
 
 # --- Optional (Defaults are likely suitable based on your setup) --- #
 gcp_project_id = "palyground-457408"
 gcp_region     = "asia-east1"
 
-credentials_file = "/Users/chenbowei/Desktop/n8n/uat/iac/terraform-sa-key.json"
+credentials_file = "yourjsonkey"
 
 db_name                  = "n8n"
 db_user                  = "n8n-user"
